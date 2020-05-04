@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnet\\OnlineShop\\OnlineShop\\OnlineShop.csproj": {}
+    "D:\\git\\OnlineShop\\OnlineShop\\OnlineShop.csproj": {}
   },
   "projects": {
-    "D:\\dotnet\\OnlineShop\\OnlineShop\\OnlineShop.csproj": {
+    "D:\\git\\OnlineShop\\OnlineShop\\OnlineShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnet\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
+        "projectUniqueName": "D:\\git\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
         "projectName": "OnlineShop",
-        "projectPath": "D:\\dotnet\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
+        "projectPath": "D:\\git\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
         "packagesPath": "C:\\Users\\Ashis\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnet\\OnlineShop\\OnlineShop\\obj\\",
+        "outputPath": "D:\\git\\OnlineShop\\OnlineShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

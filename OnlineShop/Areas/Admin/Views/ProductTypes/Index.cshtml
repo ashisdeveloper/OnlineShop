@@ -1,0 +1,27 @@
+﻿@using OnlineShop.Models;
+@model IEnumerable<ProductTypes>
+@{
+    ViewData["Title"] = "Product Types";
+}
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="text-info">Product Types List</h2>
+        </div>
+        <div class="col-md-6 text-right">
+            <a asp-action="Create" class="btn btn-info"><i class="fa fa-plus"></i>&nbsp; New Product Type</a>
+        </div>
+    </div>
+    <div>
+        <table class="table table-bordered table-sm table-striped table-hover">
+            <tr class="table-info">
+                <th colspan="2">@Html.DisplayNameFor(c=>c.ProductType)</th>
+            </tr>
+            @foreach(var item in Model)
+            {
+            <tr>
+                <td>@item.ProductType</td>
+                <partial name="_ButtonPartial" model="@item.Id" />
+            </tr>
+            }
+        </table>
+    </div>

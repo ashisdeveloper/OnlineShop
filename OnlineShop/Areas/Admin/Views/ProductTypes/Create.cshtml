@@ -1,0 +1,23 @@
+﻿@model OnlineShop.Models.ProductTypes
+@{
+    ViewData["Title"] = "Add New Product Type";
+}
+    <h3>Add New Product Type</h3>
+    <form asp-action="Create" method="post">
+        <div class="border p-4 rounded">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="formgroup row">
+                <label class="col-3" asp-for="ProductType"></label>
+                <div class="col-5"><input asp-for="ProductType" class="form-control" /></div>
+                <div class="col-4"><span asp-validation-for="ProductType" class="text-danger"></span></div>
+            </div>
+            <div class="formgroup">
+                <input type="submit" value="Save" class="btn btn-sm btn-info" />
+                <a asp-action="Index" class="btn btn-success btn-sm">back To List</a>
+            </div>
+        </div>
+    </form>
+@section Scripts{ 
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
